@@ -1,0 +1,7 @@
+version: "3"
+services:
+  onedrive:
+    build: .
+    volumes:
+      - ~/.onedrive:/root/.config/onedrive
+      - ~/onedrive:/root/OneDrive
